@@ -1,0 +1,28 @@
+
+name: kano-chebi
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pytorch-cuda=11.6
+  - pytorch==1.13.1
+  - torchaudio==0.13.1
+  - torchvision==0.14.1
+  - torch-scatter==2.1.1
+  - gensim==4.3.0
+  - scipy==1.11.4
+  - nltk
+  - numpy
+  - rdkit
+  - rdflib
+  - scikit-learn
+  - tensorboardx
+  - unidecode
+  - pip
+  - tqdm
+  - pip:
+    - Owlready2
+    - requests
+

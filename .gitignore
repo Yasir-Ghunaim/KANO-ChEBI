@@ -1,0 +1,7 @@
+*.pyc
+
+prepocess/KG
+prepocess/temp
+prepocess/outputs
+
+logs*/

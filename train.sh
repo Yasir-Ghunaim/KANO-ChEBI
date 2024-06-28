@@ -1,0 +1,15 @@
+python train.py \
+--data_path ./data/qm7.csv \
+--metric 'mae' \
+--dataset_type regression \
+--epochs 100 \
+--num_runs 20 \
+--gpu 1 \
+--batch_size 256 \
+--seed 43 \
+--init_lr 1e-4  \
+--split_type 'scaffold_balanced' \
+--step 'functional_prompt' \
+--exp_name finetune \
+--exp_id qm7 \
+--checkpoint_path "./dumped/pretrained_graph_encoder/original_CMPN_0623_1350_14000th_epoch.pkl"
