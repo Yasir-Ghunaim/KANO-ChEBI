@@ -8,13 +8,13 @@ It is forked from [KANO](https://github.com/HICAI-ZJU/KANO) and follows the same
 ## Project Overview
 This project enhances the KANO model by expanding its ElementKG with the ChEBI knowledge graph, which includes over 2,840 functional groups—far exceeding the original 82. By integrating this vast chemical knowledge into both pre-training and fine-tuning phases, we aim to improve molecular property predictions. Our approach utilizes two methods, Replace and Integrate, to effectively incorporate these enhancements.
 
-# Requirements
+## Requirements
 To set up the required environment, run the following command:
 ```sh
 conda env create -f environment.yml
 ```
 
-# Step-by-step guidelines
+## Step-by-step guidelines
 
 ### Knowledge Graphs 
 We maintain three versions of the knowledge graph:
@@ -74,5 +74,5 @@ For running groups of datasets, we offer scripts that launch multiple experiment
 Each script runs experiments in the background and stores the results under the `logs` folder. For each script, you will need to define `--kg_name` according to the desired knowledge graph.
 
 
-### Citation
+## Citation
 To be added
